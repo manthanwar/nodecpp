@@ -1,0 +1,28 @@
+{
+  "name": "nodecpp",
+  "version": "1.0.0",
+  "description": "node-api to run C++ natively in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manthanwar/nodecpp.git"
+  },
+  "author": "Amit M. Manthanwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manthanwar/nodecpp/issues"
+  },
+  "homepage": "https://github.com/manthanwar/nodecpp#readme",
+  "devDependencies": {
+    "node-gyp": "^8.4.1"
+  },
+  "dependencies": {
+    "node-addon-api": "^4.2.0"
+  },
+  "gypfile": true
+}
